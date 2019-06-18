@@ -25,9 +25,8 @@
 
 .main-div2 {
     border: 2px black solid;
-    font-family: "Touche Semibold";
     margin:0 auto;
-    width:80%;
+    width:90%;
     height:auto;
     margin-bottom: 10%;
 }
@@ -39,10 +38,18 @@
     width:38%;
     margin-top:60px;
     margin-bottom:60px;
+    font-family: "Touche Semibold";
+    
+}
+div.header-div .text-1 {
+    color:rgb(122,122,122);
 }
 
+.what-we-do{
+    margin:20px auto;
+}
 #p-service {
-    margin:2px auto;
+    margin:20px auto;
     color: rgb(253,155,12);
     border: 1px solid rgb(253,155,12);
     border-radius: 2px;
@@ -52,9 +59,14 @@
 }
 
 .phone-image {
+   
+    border: 1px black solid;
+    margin:0 auto;
+    
+}
+.device{
     width:100%;
     height: auto;
- 
 }
 .text-info{
     color: #9A9A9A !important;
@@ -79,53 +91,61 @@
 .icon-1 {
     float:right;
     right:0;
-    width:100px;
-    height: 100px;
+    width:110px;
+    height: 110px;
     padding-left:30px;
 }
 
 .icon-2 {
     float:right;
     right:0;
-    width:100px;
-    height: 100px;
+    width:110px;
+    height: 110px;
     padding-left:30px;
 }
 .icon-3 {
     float:right;
     right:0;
-    width:100px;
-    height: 100px;
+    width:110px;
+    height: 110px;
     padding-left:30px;
 }
 .icon-4 {
     float:left;
     left:30px;
-    width:100px;
-    height: 100px;
+    width:110px;
+    height: 110px;
     padding-right:30px;
 }
 .icon-5 {
     float:left;
     left:30px;
-    width:100px;
-    height: 100px;
+    width:110px;
+    height: 110px;
     padding-right:30px;
 }
 .icon-6 {
     float:left;
     left:30px;
-    width:100px;
-    height: 100px;
+    width:110px;
+    height: 110px;
     padding-right:30px;
 }
 
 .clearfix{
     overflow:auto;
     width:100%;
-    margin:0;
     border:1px black solid;
     margin-bottom:60px;
+}
+
+.font-headline {
+    font-family: "Touche Bold";
+    font-size: 17px;
+}
+.font-text {
+    font-family: "Touche Semibold";
+    font-size: 14px;
 }
 
 div.header-div {
@@ -142,5 +162,8 @@ div.info-right {
 }
 div.clearfix {
     border: 1px black solid;
+}
+div.col-sm-4 {
+    border:1px black solid;
 }
 
