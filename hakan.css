@@ -1,0 +1,146 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+@font-face {
+    src: url(fonts/Touche\ W03\ Bold.ttf);
+    font-family: "Touche Bold";
+}
+@font-face {
+    src: url(fonts/Touche\ W03\ Light.ttf);
+    font-family: "Touche Light";
+}
+
+@font-face {
+    src: url(fonts/Touche\ W03\ Regular.ttf);
+    font-family: "Touche Regular";
+}
+
+@font-face {
+    src: url(fonts/Touche\ W03\ Semibold.ttf);
+    font-family: "Touche Semibold";
+}
+
+
+.main-div2 {
+    border: 2px black solid;
+    font-family: "Touche Semibold";
+    margin:0 auto;
+    width:80%;
+    height:auto;
+    margin-bottom: 10%;
+}
+
+.header-div {
+    border: 2px hidden;
+    margin:0 auto;
+    text-align: center;
+    width:38%;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+#p-service {
+    margin:2px auto;
+    color: rgb(253,155,12);
+    border: 1px solid rgb(253,155,12);
+    border-radius: 2px;
+    width:100px;
+    font-family: "Touche Semibold";
+    
+}
+
+.phone-image {
+    width:100%;
+    height: auto;
+ 
+}
+.text-info{
+    color: #9A9A9A !important;
+}
+.p-left-info {
+    text-align: right;
+
+}
+
+.info-left {
+    padding-top:80px;
+    
+}
+.info-right {
+    padding-top:80px;
+    
+}
+.clearfix {
+    overflow:auto;
+    
+}
+.icon-1 {
+    float:right;
+    right:0;
+    width:100px;
+    height: 100px;
+    padding-left:30px;
+}
+
+.icon-2 {
+    float:right;
+    right:0;
+    width:100px;
+    height: 100px;
+    padding-left:30px;
+}
+.icon-3 {
+    float:right;
+    right:0;
+    width:100px;
+    height: 100px;
+    padding-left:30px;
+}
+.icon-4 {
+    float:left;
+    left:30px;
+    width:100px;
+    height: 100px;
+    padding-right:30px;
+}
+.icon-5 {
+    float:left;
+    left:30px;
+    width:100px;
+    height: 100px;
+    padding-right:30px;
+}
+.icon-6 {
+    float:left;
+    left:30px;
+    width:100px;
+    height: 100px;
+    padding-right:30px;
+}
+
+.clearfix{
+    overflow:auto;
+    width:100%;
+    margin:0;
+    border:1px black solid;
+    margin-bottom:60px;
+}
+
+div.header-div {
+    border:1px black solid;
+}
+div.phone-image{
+    border:1px black solid;
+}
+div.info-left {
+    border:1px black solid;
+}
+div.info-right {
+    border:1px black solid;
+}
+div.clearfix {
+    border: 1px black solid;
+}
+
