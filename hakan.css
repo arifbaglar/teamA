@@ -24,7 +24,6 @@
 
 
 .main-div2 {
-    border: 2px black solid;
     margin:0 auto;
     width:90%;
     height:auto;
@@ -35,7 +34,7 @@
     border: 2px hidden;
     margin:0 auto;
     text-align: center;
-    width:38%;
+    width:42%;
     margin-top:60px;
     margin-bottom:60px;
     font-family: "Touche Semibold";
@@ -45,13 +44,13 @@ div.header-div .text-1 {
     color:rgb(122,122,122);
 }
 
-.what-we-do{
-    margin:20px auto;
+.what-we-do {
+    margin-bottom: 20px;
+    
 }
 #p-service {
     margin:20px auto;
-    color: rgb(253,155,12);
-    border: 1px solid rgb(253,155,12);
+    color: rgb(253,155,12); 
     border-radius: 2px;
     width:100px;
     font-family: "Touche Semibold";
@@ -60,15 +59,14 @@ div.header-div .text-1 {
 
 .phone-image {
    
-    border: 1px black solid;
-    margin:0 auto;
+     margin:0 auto;
     
 }
 .device{
     width:100%;
     height: auto;
 }
-.text-info{
+div.clearfix p.text-info{
     color: #9A9A9A !important;
 }
 .p-left-info {
@@ -86,7 +84,6 @@ div.header-div .text-1 {
 }
 .clearfix {
     overflow:auto;
-    
 }
 .icon-1 {
     float:right;
@@ -135,7 +132,6 @@ div.header-div .text-1 {
 .clearfix{
     overflow:auto;
     width:100%;
-    border:1px black solid;
     margin-bottom:60px;
 }
 
@@ -148,22 +144,15 @@ div.header-div .text-1 {
     font-size: 14px;
 }
 
-div.header-div {
-    border:1px black solid;
+@media only screen and (max-width: 1200px) and (min-width: 575px){
+    div.phone-image.col-sm-3{
+        display:none;
+    }
+    div.row {
+        justify-content:center;
+    }
 }
-div.phone-image{
-    border:1px black solid;
-}
-div.info-left {
-    border:1px black solid;
-}
-div.info-right {
-    border:1px black solid;
-}
-div.clearfix {
-    border: 1px black solid;
-}
-div.col-sm-4 {
-    border:1px black solid;
-}
+
+
+
 
