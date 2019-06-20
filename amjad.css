@@ -1,0 +1,78 @@
+@font-face {
+    src: url(fonts/Touche\ W03\ Bold.ttf);
+    font-family: "Touche Bold";
+ } 
+
+@font-face {
+    src: url(fonts/Touche\ W03\ Regular.ttf);
+    font-family: "Touche Regular";
+}
+.lat {
+   color: #f8770d;
+   width: 175px;
+   height: 30px;
+   border: 2px solid #f8770d;
+   margin: 0 auto;
+   text-align: center;
+   border-radius: 2px;
+   display: block;
+   font-family: "Touche Regular";
+   font-weight: 600;
+}
+.btn:hover{
+    color: #f8770d;
+}
+#center{
+   display:flex; 
+   justify-content: center;
+} 
+
+#center-text{ 
+    text-align: center;
+    margin:15px auto 30px ;
+}
+.space p{
+    display: inline-block;
+    padding-left: 5px;
+}
+.space {
+    margin-right: 25px;
+    color: gray;
+}
+#A{
+    display: inline-block;
+    color: gray;
+}
+.mr1{
+    margin: 1rem auto;
+    font-size: 17px !important;
+    font-weight: bolder;
+}
+.width33{
+    width: 30%;
+    margin: 1.25%;
+    float:left;
+}
+.width33 img{
+    max-width: 100%;
+    border-radius: 1%;
+}
+.width33 img:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(133,126,133,1);
+-moz-box-shadow: 0px 0px 20px 0px rgba(133,126,133,1);
+box-shadow: 0px 0px 20px 0px rgba(133,126,133,1);
+}
+
+@media only screen and (max-width:600px){
+    .width33{
+        width: 100%;
+    }
+}
+    
+  //////////This is for the headlines which are a little bit thickker ! ////////////
+ 
+ /*//////////////////This font is for the normal texts and please add " font-weight =600; " when you are using "Touche Regular" so it will be exactly the same with the real project !!!//////*/
+
+ .width33 p{
+     font-family: "Touch Regular"
+ }
